@@ -1,6 +1,6 @@
 # Installs the everything needed:
 # Run:
-# curl --silent --show-error "https://raw.githubusercontent.com/s-oram/setup-scripts/refs/heads/main/ubuntu/install.bash" | bash
+# curl --silent --show-error "https://raw.githubusercontent.com/s-oram/setup-scripts/refs/heads/main/ubuntu/install-server.bash" | bash
 
 # Install `apt-add-repository` command:
 sudo apt update
