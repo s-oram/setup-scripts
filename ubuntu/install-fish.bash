@@ -1,6 +1,6 @@
 # Install `apt-add-repository` command:
 sudo apt update
-sudo apt-get install software-properties-common
+sudo apt-get install software-properties-common --yes
 sudo apt update
 
 # Install Fish v3
