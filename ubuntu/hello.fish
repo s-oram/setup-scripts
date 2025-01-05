@@ -1,1 +1,1 @@
-echo Hello, my name (whoami)
+echo Hello from fish shell, my name (whoami)

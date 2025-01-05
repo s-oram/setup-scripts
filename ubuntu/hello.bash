@@ -1,1 +1,1 @@
-echo "Hello, my name $(whoami)"
+echo "Hello from bash shell, my name $(whoami)"
