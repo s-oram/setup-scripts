@@ -3,7 +3,7 @@
 # curl --silent --show-error "https://raw.githubusercontent.com/s-oram/setup-scripts/refs/heads/main/install-server.bash" | bash
 
 TOOLS_URL="https://raw.githubusercontent.com/s-oram/setup-scripts/refs/heads/main"
-FUNCTIONS_DIR="~/.config/fish/functions"
+FUNCTIONS_DIR="/home/$(whoami)/.config/fish/functions"
 
 sudo apt update
 sudo apt-get install wget --yes
