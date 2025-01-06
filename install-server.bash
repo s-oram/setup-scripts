@@ -12,6 +12,7 @@ sudo apt-get install wget --yes
 wget --quiet "$TOOLS_URL/ubuntu/fish--install.bash" -O - | bash
 
 # Copy Fish functions to local Fish functions directory
+mkdir -p $FUNCTIONS_DIR
 wget --quiet "$TOOLS_URL/ubuntu/fish-functions/rc.fish" -O "$FUNCTIONS_DIR/rc.fish"
 
 echo ""
