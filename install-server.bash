@@ -8,7 +8,7 @@ CACHE_BREAK=$(date +%s)
 sudo apt update
 sudo apt-get install wget --yes
 
-wget --quiet "$TOOLS_URL/fish--install.bash?$CACHE_BREAK" -O - | bash
+wget --quiet "$TOOLS_URL/fish--install.bash?token=$CACHE_BREAK" -O - | bash
 
 echo ""
 echo "Setup complete, please exit and restart your SSH session"

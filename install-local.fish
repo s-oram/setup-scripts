@@ -7,7 +7,7 @@ set CACHE_BREAK date +%s
 
 set FUNCTIONS_DIR ~/.config/fish/functions
 
-wget "$TOOLS_URL/mac/fish-functions/rc.fish?$CACHE_BREAK" -O "$FUNCTIONS_DIR/rc.fish"
+wget "$TOOLS_URL/mac/fish-functions/rc.fish?token=$CACHE_BREAK" -O "$FUNCTIONS_DIR/rc.fish"
 
 ## wget --quiet "$TOOLS_URL/ghostty--fix.fish?$CACHE_BREAK" -O - | fish
 

@@ -9,7 +9,7 @@ function rc -d "Ripcord"
     set FILENAME $argv[1]
 
     # TODO: Report errors
-    wget --quiet "$TOOLS_URL/$SYSTEM/$FILENAME.fish?$CACHE_BREAK" -O - | fish
+    wget --quiet "$TOOLS_URL/$SYSTEM/$FILENAME.fish?token=$CACHE_BREAK" -O - | fish
   end
 
 
