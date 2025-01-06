@@ -1,4 +1,5 @@
 function rc -d "Ripcord"
+  echo two times
 
   function run_remote_script
     # remove function from global scope
