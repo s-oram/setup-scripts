@@ -16,3 +16,7 @@ function run_remote_script
   wget --quiet "$TOOLS_URL/$SYSTEM/$FILENAME.fish" -O - | fish
 end
 
+# TODO: This function should be renamed to ripcord
+
+# TODO: This function does not pass extra arguments to
+# the script being called. Which is needed.

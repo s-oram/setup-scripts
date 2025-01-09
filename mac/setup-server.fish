@@ -1,7 +1,10 @@
 # Sets up Ripcord on the remote host
 #
 # Usage:
-#    rc user@host
+#    rc setup-server [user@host]
+#
+# [user@host] is your SSH connection string
+#
 
 #==================#
 #  Read Arguments  #
@@ -26,7 +29,8 @@ function applyGhosttyFix
   infocmp -x | ssh $host -- tic -x -
 end
 
-# Connect to the remote machine and
+# Connect to the remote machine and run install script.
+# This does two things:
 # 1. Install Fish
 # 2. Copy Ripcord function to fish functions directory
 function installFishAndRipcord
