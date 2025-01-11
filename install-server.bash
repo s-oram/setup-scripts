@@ -16,4 +16,4 @@ mkdir -p $FUNCTIONS_DIR
 wget --quiet "$TOOLS_URL/ubuntu/fish-functions/ripcord.fish" -O "$FUNCTIONS_DIR/ripcord.fish"
 
 echo ""
-echo "Setup complete"
+echo "Setup complete"ß
