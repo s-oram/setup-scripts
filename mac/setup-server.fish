@@ -1,7 +1,7 @@
 # Sets up Ripcord on the remote host
 #
 # Usage:
-#    rc setup-server [user@host]
+#    ripcord setup-server [user@host]
 #
 # [user@host] is your SSH connection string
 #
