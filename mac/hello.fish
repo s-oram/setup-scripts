@@ -1,1 +1,1 @@
-echo Hello world! "$argv"
+echo Hello world! "\"$argv\""

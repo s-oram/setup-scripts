@@ -43,6 +43,12 @@ end
 #  Run Setup Actions  #
 #=====================#
 
+
+echo Setup Server
+echo ""
+echo   Host: "$host"
+echo ""
+
 applyGhosttyFix $host
 
 installFishAndRipcord
