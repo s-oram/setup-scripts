@@ -11,9 +11,7 @@ function copy_remote_fish_func
   set output ~/$FUNCTIONS_DIR/$FILENAME.fish
   set source "$TOOLS_URL/$SYSTEM/fish-functions/$FILENAME.fish"
   curl --silent --show-error -o $output $source
-  #wget --quiet "$TOOLS_URL/$SYSTEM/fish-functions/$FILENAME.fish" -O
 end
-
 
 # Copy Fish functions to local Fish functions directory
 copy_remote_fish_func ripcord
