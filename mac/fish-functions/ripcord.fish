@@ -1,4 +1,4 @@
-function rc -d "Ripcord"
+function ripcord -d "Ripcord"
   switch (count $argv)
     case 0
       echo "Choose the name of the script"
@@ -15,8 +15,6 @@ function run_remote_script
 
   wget --quiet "$TOOLS_URL/$SYSTEM/$FILENAME.fish" -O - | fish
 end
-
-# TODO: This function should be renamed to ripcord
 
 # TODO: This function does not pass extra arguments to
 # the script being called. Which is needed.
