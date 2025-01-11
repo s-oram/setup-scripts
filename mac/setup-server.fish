@@ -44,14 +44,20 @@ end
 #=====================#
 
 
-echo Setup Server
+echo "Setup Server for \"$host\""
 echo ""
-echo   Host: "$host"
+
+
+echo "Running Ghostty terminal fix..."
 echo ""
 
 applyGhosttyFix $host
 
-installFishAndRipcord
+
+echo ""
+echo "Running Ripcord install script..."
+
+installFishAndRipcord $host
 
 
 

@@ -5,7 +5,7 @@
 TOOLS_URL="https://raw.githubusercontent.com/s-oram/setup-scripts/refs/heads/main"
 FUNCTIONS_DIR="/home/$(whoami)/.config/fish/functions"
 
-sudo apt update
+sudo apt-get update
 sudo apt-get install wget --yes
 
 # Install Fish
